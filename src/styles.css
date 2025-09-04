@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+/* 🌍 Brown Theme */
+:root {
+  --brown-dark: #5c4033;
+  --brown-medium: #a9745b;
+  --brown-light: #f5f0eb;
+}
+
+body {
+  background-color: var(--brown-light);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+  background-color: var(--brown-dark);
+  padding: 10px 20px;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: var(--brown-medium);
+}
+
+/* Product Card */
+.product-card {
+  border: 1px solid var(--brown-medium);
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Details Card */
+.details-card {
+  border: 2px solid var(--brown-medium);
+  border-radius: 12px;
+}
+
+/* Brown Buttons */
+.btn-brown {
+  background-color: var(--brown-dark);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-brown:hover {
+  background-color: var(--brown-medium);
+  color: white;
+}
+
+/* Text Accent */
+.text-brown {
+  color: var(--brown-dark);
+}

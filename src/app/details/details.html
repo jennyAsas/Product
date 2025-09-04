@@ -1,0 +1,12 @@
+<div class="container mt-4">
+  <div *ngIf="product" class="card shadow details-card">
+    <div class="card-body">
+      <h2 class="card-title text-brown">{{ product.name }}</h2>
+      <p><strong>Price:</strong> ₱{{ product.price }}</p>
+      <p><strong>Location:</strong> {{ product.location }}</p>
+      <p><strong>Details:</strong> {{ product.details }}</p>
+
+      <a routerLink="/products" class="btn btn-brown mt-3">⬅ Back to Products</a>
+    </div>
+  </div>
+</div>
