@@ -1,4 +1,4 @@
-/* 🌍 Brown Theme */
+
 :root {
   --brown-dark: #5c4033;
   --brown-medium: #a9745b;
@@ -10,7 +10,7 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* Navbar */
+
 nav {
   background-color: var(--brown-dark);
   padding: 10px 20px;
@@ -38,7 +38,7 @@ nav ul li a:hover {
   color: var(--brown-medium);
 }
 
-/* Product Card */
+
 .product-card {
   border: 1px solid var(--brown-medium);
   border-radius: 10px;
@@ -49,13 +49,13 @@ nav ul li a:hover {
   transform: translateY(-5px);
 }
 
-/* Details Card */
+
 .details-card {
   border: 2px solid var(--brown-medium);
   border-radius: 12px;
 }
 
-/* Brown Buttons */
+
 .btn-brown {
   background-color: var(--brown-dark);
   color: white;
@@ -69,7 +69,7 @@ nav ul li a:hover {
   color: white;
 }
 
-/* Text Accent */
+
 .text-brown {
   color: var(--brown-dark);
 }
